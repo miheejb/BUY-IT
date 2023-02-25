@@ -1,0 +1,22 @@
+:root {
+  --darkgrey: rgb(41, 41, 41);
+  --mediumgrey: rgb(88, 88, 88);
+  --lightgrey: rgb(218, 218, 218);
+  --verylightgrey: rgb(244, 244, 244);
+  --darkyellow: rgb(255, 200, 21);
+  --lightyellow: rgb(254, 254, 185);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:visited{
+  color: var(--darkyellow);
+  text-decoration: none;
+
+}

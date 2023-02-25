@@ -1,0 +1,155 @@
+/* Navbar */
+
+.navbar,
+.footer {
+  background-color: var(--mediumgrey);
+}
+
+.navbar .container {
+  color: var(--darkyellow);
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.navbar .container .logo img {
+  width: 130px;
+  position: absolute;
+  top: 10%;
+  left: 2%;
+}
+.navbar .link,
+.navbar .link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar h6,
+.footer h6 {
+  font-size: 16px;
+  font-weight: 300;
+}
+.navbar span,
+.footer span {
+  cursor: pointer;
+}
+.navbarRight,
+.footerRight {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.navbar .sell {
+  background-color: var(--darkyellow);
+  color: var(--darkgrey);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+.navbar .sell:hover {
+  color: var(--darkgrey);
+  background-color: var(--verylightgrey);
+  border: 1px solid (--darkyellow);
+  font-weight: bold;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: 100px;
+  background-color: var(--mediumgrey);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  height: 50px;
+  margin-top: -50px;
+  /* sticky footer :D */
+  position: sticky;
+  bottom: 0;
+}
+.footer .footerRight {
+  display: flex;
+}
+
+.footer .container {
+  color: var(--darkyellow);
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer {
+  margin-top: 100px;
+}
+
+/* Menu components - inserting in SingleProduct page */
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.manu .posts {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.menu .post {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu .post img {
+  width: 100px;
+}
+
+.menu h1 {
+  font-size: 18px;
+  margin-top: 5px;
+}
+.menu h2 {
+  font-size: 15px;
+}
+.menu button {
+  padding: 10px 20px;
+}
+
+.review h1{
+    margin-bottom: 10px;
+    color: blue;
+}
+.review h2{
+    margin-top:5px;
+}
+.review .showreview h2{
+    text-decoration: underline;
+}
+.writereview{
+    width:100%;
+    height:200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+}
+
+.writereview h2{
+    color:blue;
+}
+.writereview button{
+    width:fit-content;
+    padding: 10px 20px;
+}
+.review .note{
+    height: 50px;
+}
