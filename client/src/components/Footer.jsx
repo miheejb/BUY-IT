@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="container">
           <div className="logo">© Anya & Mihee</div>
           <div className="footerRight">
-            <p>About us</p>
+            <p>About us test</p>
             <p>Terms and conditions</p>
             <p>Contact us</p>
           </div>
