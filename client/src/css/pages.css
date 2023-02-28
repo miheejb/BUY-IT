@@ -196,11 +196,79 @@
     gap: 20px;
 }
 .sell .content{
-    flex:5
+    flex:5;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
 }
+
+.sell .content input{
+  padding:10px;
+  border:1px solid lightgray;
+}
+
+.sell .content .sellorContainer{
+  height: 300px;
+  overflow: scroll;
+  border: 1px solid lightgray;
+}
+
+.sell .content .sellorContainer .editor{
+  height: 100%;
+  border:none;
+}
+
 .sell .menu{
     flex:2;
     display:flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.sell .menu .item{
+  border: 1px solid lightgray;
+  padding: 10px;
+  flex:1;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.sell .menu .item h1{
+  font-size: 20px;
+}
+
+.sell .menu .item .file{
+  text-decoration:underline;
+  cursor:pointer;
+}
+
+.sell .input-file{
+  display:none;
+}
+
+.sell .price{
+  width: 75px;
+}
+
+.sell .button{
+  display:flex;
+  gap:30px;
+}
+
+.sell .button .save{
+  cursor:pointer;
+  border: 1px solid darkgray;
+}
+
+.sell .button .update{
+background-color: var(--darkyellow);
+border: 1px solid darkgray;
+cursor:pointer;
+}
+
+.sell .category{
+  display: flex;
+  gap: 10px;
 }
