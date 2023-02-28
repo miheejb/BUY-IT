@@ -10,9 +10,9 @@ const Navbar = () => {
         </div>
         <div className="links">
           <div className="link">
-            <h6>Home</h6>
+            <a href="./"><h6>Home</h6></a>
             <h6>Search</h6>
-            <h6>Buy</h6>
+            <a href="./"><h6>Buy</h6></a>
             <h6>Sellers</h6>
           </div>
         </div>
@@ -23,7 +23,7 @@ const Navbar = () => {
             </h6>
           </span>
           <span>Logout</span>
-          <span className="sell">Sell</span>
+          <a href="./sell"><span className="sell"> Sell</span> </a>
         </div>
       </div>
       v

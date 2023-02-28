@@ -22,7 +22,7 @@ const Home = () => {
     },
     {
       id: 4,
-      title: "LEGO",
+      title: "LEGOs",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius interdum euismod. Donec egestas vulputate tincidunt. Sed mollis, sapien id vulputate luctus, elit mi efficitur nis",
       img: "images/lego.png",
     },
