@@ -10,7 +10,7 @@ const Home = () => {
     },
     {
       id: 2,
-      title: "Animal",
+      title: "Animal toys",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius interdum euismod. Donec egestas vulputate tincidunt. Sed mollis, sapien id vulputate luctus, elit mi efficitur nis",
       img: "images/animal.png",
     },
