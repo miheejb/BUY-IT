@@ -59,9 +59,7 @@
   text-align: center;
 }
 
-
 /* Home page  */
-
 
 .home .posts {
   display: grid;
@@ -74,11 +72,10 @@
   padding: 20px;
 }
 
-
 .home img {
   height: 300px;
   width: 350px;
-  display:flex;
+  display: flex;
   justify-content: center;
   margin: 20px auto;
   position: relative;
@@ -86,121 +83,286 @@
   cursor: pointer;
   object-fit: cover;
 }
-.home img:hover{
-    height: 310px;
-    width: 360px;
+.home img:hover {
+  height: 310px;
+  width: 360px;
 }
 
-.home .content{
-    width: 75%;
-    margin:auto auto;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
+.home .content {
+  width: 75%;
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.home h1{
-    font-size: 20px;
-    margin:10px auto; 
+.home h1 {
+  font-size: 20px;
+  margin: 10px auto;
 }
 
 /* SingleProduct Page */
 
-.single{
-    display:flex;
-    gap: 50px;
+.single {
+  display: flex;
+  gap: 50px;
 }
 
-.single .content{
-    flex: 5;
-    display:flex;
-    flex-direction:column;
-    gap: 30px;
-    margin-top: 30px;
+.single .content {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
 }
 
-.single .content img{
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
+.single .content img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
-.single .content .buyoption{
-    display:flex;
-    justify-content:space-between;
-    margin: 0 10px;
+.single .content .buyoption {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
 }
-.single .content .price{
-    font-weight: bold;
-    font-size: 20px;
+.single .content .price {
+  font-weight: bold;
+  font-size: 20px;
 }
-.single .content button{
-    width:fit-content;
-    padding: 10px 20px;
-    border-style: none;
-    background-color: var(--darkyellow);
-    font-weight: bold;
-
+.single .content button {
+  width: fit-content;
+  padding: 10px 20px;
+  border-style: none;
+  background-color: var(--darkyellow);
+  font-weight: bold;
 }
-.single .user{
-    display: flex;
-    flex-direction: row;
-    align-items:center;
-    gap: 10px;
-    font-size: 14px;
-    margin-bottom: 20px;
+.single .user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
-.single span{
-    font-weight: bold;
+.single span {
+  font-weight: bold;
 }
-.single .user .edit img{
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    margin-right: 20px;
-}
-
-.single .menu{
-    flex: 2;
+.single .user .edit img {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 20px;
 }
 
-.single .user img{
-    width: 50px;
-    height:50px;
-    border-radius:50%;
-    object-fit: cover;
+.single .menu {
+  flex: 2;
 }
 
-.single .user .edit{
-    display:flex;
+.single .user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
 }
-.single .user .edit img{
-    width: 25px;
-    height: 25px;
-    cursor:pointer;
-    margin: 2px;
+
+.single .user .edit {
+  display: flex;
 }
-.single .content p{
-    text-align:justify
+.single .user .edit img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin: 2px;
+}
+.single .content p {
+  text-align: justify;
 }
 
 /* SingleProduct page - menu section */
 
-.single .menu{
-    flex: 2;
+.single .menu {
+  flex: 2;
 }
 
 /* Sell page  */
-.sell{
-    margin: top 20pxl;
-    display:flex;
-    gap: 20px;
+.sell {
+  margin: top 20pxl;
+  display: flex;
+  gap: 20px;
 }
 .sell .content{
-    flex:5
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
 }
+
+.sell .content input{
+  padding:10px;
+  border:1px solid lightgray;
+}
+
+.sell .content .sellorContainer{
+  height: 300px;
+  overflow: scroll;
+  border: 1px solid lightgray;
+}
+
+.sell .content .sellorContainer .editor{
+  height: 100%;
+  border:none;
+}
+
 .sell .menu{
-    flex:2;
+    flex: 2;
     display:flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.sell .menu .item{
+  border: 1px solid lightgray;
+  padding: 10px;
+  flex:1;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.sell .menu .item h1{
+  font-size: 20px;
+}
+
+.sell .menu .item .file{
+  text-decoration:underline;
+  cursor:pointer;
+}
+
+.sell .input-file{
+  display:none;
+}
+
+.sell .price{
+  width: 75px;
+}
+
+.sell .button{
+  display:flex;
+  gap:30px;
+}
+
+.sell .button .save{
+  cursor:pointer;
+  border: 1px solid darkgray;
+}
+
+.sell .button .update{
+background-color: var(--darkyellow);
+border: 1px solid darkgray;
+cursor:pointer;
+}
+
+.sell .category{
+  display: flex;
+  gap: 10px;
+}
+
+/* animaltoys page */
+/* cartraintoys page*/
+/* dollsofttoys page */
+/* legotoys page */
+.animal .heading,
+.cartrain .heading,
+.lego .heading,
+.doll .heading{
+  /* background-color:aliceblue; */
+height: 80px;
+  position:relative
+}
+
+.animal .heading h1,
+.cartrain .heading h1,
+.lego .heading h1,
+.doll .heading h1{
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  position:absolute;
+  top: 90%;
+}
+
+.animal .posts,
+.cartrain .posts,
+.lego .posts,
+.doll .posts{
+  display:grid;
+  grid-template-columns: 30% 30% 30%;
+
+  /* background-color: aliceblue; */
+  gap: 30px;
+  align-items:center;
+  justify-content:center;
+}
+.animal .posts .post,
+.cartrain .posts .post,
+.lego .posts .post,
+.doll .posts .post{
+margin: 150px 0;
+height: 370px;
+  border: 1px solid grey;
+  position:relative;
+}
+
+.animal img,
+.cartrain img,
+.lego img,
+.doll img{
+  height:200px;
+  width: 250px;
+  display:flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.animal img:hover,
+.cartrain img:hover,
+.lego img:hover,
+.doll img:hover{
+    height: 205px;
+    width: 255px;
+}
+
+.animal p,
+.cartrain p,
+.lego p,
+.doll p{
+  font-size: 20px;
+  padding: 0px 20px;
+}
+
+.animal h3,
+.cartrain h3,
+.lego h3,
+.doll h3{
+  font-size: 20px;
+  text-align: center;
+  padding:5px;
+  height: 50px;
+}
+
+.animal button,
+.cartrain button,
+.lego button,
+.doll button{
+  padding: 10px;
+  border: none;
+  background-color: var(--darkyellow);
+  color: var(--mediumgrey);
+  cursor: pointer;
+border-radius:3px;
+position:absolute;
+left: 55%;
 }
