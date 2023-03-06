@@ -9,6 +9,10 @@ import SingleProduct from "./pages/SingleProduct";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import "./css/main.css"
+import CarTrainToys from "./pages/CarTrainToys";
+import LegoToys from "./pages/LegoToys";
+import DollSoftToys from "./pages/DollSoftToys";
+import AnimalToys from "./pages/AnimalToys";
 
 
 const Layout = () => {
@@ -43,7 +47,23 @@ const router = createBrowserRouter([
       },
       {
         path: "/product/:id",
-        element: <SingleProduct/>,
+        element: <SingleProduct />,
+      },
+      {
+        path: "/animaltoys",
+        element: <AnimalToys />,
+      },
+      {
+        path: "/cartraintoys",
+        element: <CarTrainToys />,
+      },
+      {
+        path: "/dollsofttoys",
+        element: <DollSoftToys/>,
+      },
+      {
+        path: "legotoys",
+        element: <LegoToys/>,
       },
     ],
   },
