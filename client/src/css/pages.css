@@ -272,3 +272,101 @@ cursor:pointer;
   display: flex;
   gap: 10px;
 }
+
+/* animaltoys page */
+/* cartraintoys page*/
+/* dollsofttoys page */
+/* legotoys page */
+.animal .heading,
+.cartrain .heading,
+.lego .heading,
+.doll .heading{
+  /* background-color:aliceblue; */
+height: 80px;
+  position:relative
+}
+
+.animal .heading h1,
+.cartrain .heading h1,
+.lego .heading h1,
+.doll .heading h1{
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  position:absolute;
+  top: 90%;
+}
+
+.animal .posts,
+.cartrain .posts,
+.lego .posts,
+.doll .posts{
+  display:grid;
+  grid-template-columns: 30% 30% 30%;
+
+  /* background-color: aliceblue; */
+  gap: 30px;
+  align-items:center;
+  justify-content:center;
+}
+.animal .posts .post,
+.cartrain .posts .post,
+.lego .posts .post,
+.doll .posts .post{
+margin: 150px 0;
+height: 370px;
+  border: 1px solid grey;
+  position:relative;
+}
+
+.animal img,
+.cartrain img,
+.lego img,
+.doll img{
+  height:200px;
+  width: 250px;
+  display:flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.animal img:hover,
+.cartrain img:hover,
+.lego img:hover,
+.doll img:hover{
+    height: 205px;
+    width: 255px;
+}
+
+.animal p,
+.cartrain p,
+.lego p,
+.doll p{
+  font-size: 20px;
+  padding: 0px 20px;
+}
+
+.animal h3,
+.cartrain h3,
+.lego h3,
+.doll h3{
+  font-size: 20px;
+  text-align: center;
+  padding:5px;
+  height: 50px;
+}
+
+.animal button,
+.cartrain button,
+.lego button,
+.doll button{
+  padding: 10px;
+  border: none;
+  background-color: var(--darkyellow);
+  color: var(--mediumgrey);
+  cursor: pointer;
+border-radius:3px;
+position:absolute;
+left: 55%;
+}
