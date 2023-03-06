@@ -65,7 +65,7 @@
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
-  background-color: aliceblue;
+ /* background-color: var(--verylightgrey); */
   gap: 30px;
   align-items: center;
   justify-content: center;
@@ -258,7 +258,7 @@ cursor:pointer;
 .cartrain .heading,
 .lego .heading,
 .doll .heading{
-  /* background-color:aliceblue; */
+/* background-color: var(--verylightgrey); */
 height: 80px;
   position:relative
 }
@@ -282,7 +282,7 @@ height: 80px;
   display:grid;
   grid-template-columns: 30% 30% 30%;
 
-  /* background-color: aliceblue; */
+ /* background-color: var(--verylightgrey); */
   gap: 30px;
   align-items:center;
   justify-content:center;
