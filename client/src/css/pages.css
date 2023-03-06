@@ -192,26 +192,7 @@
   gap: 20px;
 }
 .sell .content{
-    flex: 5;
-    display: flex;
-    flex-direction: column;
-    gap:20px;
-}
-
-.sell .content input{
-  padding:10px;
-  border:1px solid lightgray;
-}
-
-.sell .content .sellorContainer{
-  height: 300px;
-  overflow: scroll;
-  border: 1px solid lightgray;
-}
-
-.sell .content .sellorContainer .editor{
-  height: 100%;
-  border:none;
+    flex:5
 }
 
 .sell .menu{
