@@ -1,4 +1,5 @@
 import React from 'react'
+// import SingleProduct from './SingleProduct';
 
 const LegoToys = () => {
   const posts = [
@@ -31,18 +32,20 @@ const LegoToys = () => {
       <div className="posts">
         {posts.map((post) => (
           <div className="post" key={post.id}>
-            <div className="img">
-              <img src={post.img} alt="" />
-            </div>
-            <div className="content">
-              {/* Link???   */}
-              <p> {post.price}</p>
-              <h3>{post.title}</h3>
-            </div>
-            <div>
-              {" "}
-              <button> Add to cart </button>
-            </div>
+            <a href="/product/id">
+              <div className="img">
+                <img src={post.img} alt="" />
+              </div>
+              <div className="content">
+                {/* Link???   */}
+                <p> {post.price}</p>
+                <h3>{post.title}</h3>
+              </div>
+              <div>
+                {" "}
+                <button> Add to cart </button>
+              </div>
+            </a>
           </div>
         ))}
       </div>

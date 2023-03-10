@@ -7,7 +7,8 @@ const Menu = () => {
       id: 1,
       title: "Dolls",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius interdum euismod. Donec egestas vulputate tincidunt. Sed mollis, sapien id vulputate luctus, elit mi efficitur nis",
-      img: "/images/doll.png",
+      img: "/images/doll.png"
+    
     },
     {
       id: 2,

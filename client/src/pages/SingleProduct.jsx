@@ -6,12 +6,12 @@ const SingleProduct = () => {
   return (
     <div className="single">
       <div className="content">
-        <img src="/images/legocity.jpeg" alt="" />
+        <img src="/images/lego/lego_city_rescue_helicopter.jpg" alt="" />
         <h1>Lorem ipsum dolor sit amet.
         </h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut minima esse soluta tempore nostrum autem eum, saepe modi iusto recusandae atque quam, sint, nam hic repellendus a cumque id temporibus.</p>
         <div className="buyoption">
-        <p className="price">Price: NZD 30</p>
+        <p className="price">Price: NZD 39.99</p>
         <button> ADD TO BAG </button></div>
         <div className="user">
           <img src="/images/mihee.png" alt="" />
