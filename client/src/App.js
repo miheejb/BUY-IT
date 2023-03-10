@@ -8,23 +8,26 @@ import Sell from "./pages/Sell";
 import SingleProduct from "./pages/SingleProduct";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import "./css/main.css"
+import "./css/main.css";
 import CarTrainToys from "./pages/CarTrainToys";
 import LegoToys from "./pages/LegoToys";
 import DollSoftToys from "./pages/DollSoftToys";
 import AnimalToys from "./pages/AnimalToys";
 
-
 const Layout = () => {
   return (
     <>
       <Navbar />
-      <Outlet/>
-      <Footer/>
+      <Outlet />
+      <Footer />
     </>
   );
 };
 const router = createBrowserRouter([
+  {
+    path: "/product/:id",
+    element: <SingleProduct />,
+  },
   {
     path: "/",
     element: <Layout />,
@@ -59,23 +62,21 @@ const router = createBrowserRouter([
       },
       {
         path: "/dollsofttoys",
-        element: <DollSoftToys/>,
+        element: <DollSoftToys />,
       },
       {
         path: "legotoys",
-        element: <LegoToys/>,
+        element: <LegoToys />,
       },
     ],
   },
 ]);
 
-
-
 function App() {
   return (
     <div className="app">
       <div className="container">
-      <RouterProvider router={router} />
+        <RouterProvider router={router} />
       </div>
     </div>
   );
