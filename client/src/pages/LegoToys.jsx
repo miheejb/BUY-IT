@@ -1,5 +1,4 @@
 import React from 'react'
-// import SingleProduct from './SingleProduct';
 
 const LegoToys = () => {
   const posts = [
