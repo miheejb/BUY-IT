@@ -10,11 +10,13 @@ import authRoutes from './routes/auth.js';
 const app = express();
 
 //db
+mongoose.set('strictQuery', false);
 mongoose.connect(DATABASE)
 .then(()=> console.log ("db_connected"))
 .catch((err) => console.log(err));
 
 
+//any time you use middleware use app.use
 //middlewares
 app.use(express.json());
 app.use(morgan("dev"));
